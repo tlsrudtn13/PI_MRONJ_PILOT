@@ -1,0 +1,31 @@
+# ════════════════════════════════════════════════════════════════════════
+# DATA IS NOT COMMITTED TO THIS PUBLIC REPOSITORY.
+# - The de-identified dataset (PI_MRONJ_v4.xlsx) is provided as JOURNAL
+#   SUPPLEMENTARY MATERIAL and is available from the authors on reasonable
+#   request (see README "Data availability").
+# - The raw dataset (real dates) and panoramic images are never shared publicly.
+# ════════════════════════════════════════════════════════════════════════
+PI_MRONJ_v4.xlsx
+*.dcm
+*.dicom
+*.pmrx
+
+# Observer-remeasurement files for ICC regeneration (not distributed)
+Radiomics_v37_Final_Results*.xlsx
+*Intra_obs.xlsx
+*Inter_obs.xlsx
+Clinical_ICC*.xlsx
+
+# Local working dirs / generated figures
+data/
+Results_R/
+*.tiff
+
+# R / Colab / OS cruft
+.Rhistory
+.RData
+.Rproj.user/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+desktop.ini
